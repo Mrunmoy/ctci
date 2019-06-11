@@ -3,4 +3,4 @@ project(StringCompression C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(StringCompression main.c)
+add_executable(StringCompression main.c stringbuilder.c stringbuilder.h)
